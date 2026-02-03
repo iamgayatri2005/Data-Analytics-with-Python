@@ -1,6 +1,8 @@
-age = 16
+score = 75
 
-if age >= 18:
-    print("You can drive!")
+if score >= 80:
+    print("Grade A")
+elif score >=60:
+    print("Grade B")
 else:
-    print("You cannot drive!")    
+    print("Grade C")        
