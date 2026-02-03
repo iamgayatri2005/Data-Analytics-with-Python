@@ -5,4 +5,9 @@ if score >= 80:
 elif score >=60:
     print("Grade B")
 else:
-    print("Grade C")        
+    print("Grade C")
+
+if score % 2 == 0:
+    print("Score is even!")
+else:
+    print("Score is odd!")                
