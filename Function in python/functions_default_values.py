@@ -1,5 +1,6 @@
-def greet(name="User"):
-    print("Hello", name)
+def greet(name="User", city="Delhi"):
+    print("Hello", name, city)
 
 greet()
-greet("Rohan")    
+greet("Rohan")
+greet(city="Alwar", name="Aakash")    
