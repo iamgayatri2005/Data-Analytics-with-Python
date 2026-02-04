@@ -5,3 +5,10 @@ def greet(fname, lname):
   print("Thank you!")
 greet("Rohan", "khan")
 greet("Harry", "das")
+
+def add(a, b):
+#   print(a+b)
+    return a + b
+
+c = add(4, 6)
+print(c)  
