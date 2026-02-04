@@ -6,5 +6,9 @@
 # for i in range(0, 10):
 #     print(i)    
 
-for char in "Harry":
-    print(char)
+# for char in "Harry":
+#     print(char)
+
+count = 1
+while (count <= 5):
+    print(count)
