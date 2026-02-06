@@ -4,7 +4,8 @@ a = "Gunu is beautiful"
 # file.write(a)
 
 file = open("robot.txt", "r")
-content = file.read()
+# content = file.read()
+content = file.readlines()
 print(content)
 
 file.close()
